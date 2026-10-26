@@ -1,0 +1,35 @@
+TUCA & PINGO — PROTETORES DO BEM
+SITE OFICIAL DE VÍDEOS | HG & A Editora e Produtora Audiovisual
+
+COMO ABRIR NO COMPUTADOR
+1. Extraia o arquivo ZIP inteiro (não abra o HTML de dentro do ZIP).
+2. Na pasta extraída, abra o arquivo index.html com Chrome ou Edge.
+3. Clique no cartaz ou no botão "Assistir episódio".
+4. O player permite pausar, ajustar volume, expandir e baixar cada vídeo.
+5. Os vídeos estão incluídos na pasta videos: o site funciona sem internet.
+
+COMO PUBLICAR NA INTERNET
+Envie o CONTEÚDO COMPLETO desta pasta para um serviço de hospedagem
+estática (por exemplo, Netlify, Cloudflare Pages ou servidor próprio).
+A página de entrada deve ser index.html. Mantenha a estrutura de pastas.
+Você pode usar serviço de hospedagem com streaming específico de vídeo
+se o número de visualizações aumentar: os vídeos MP4 estão inclusos aqui.
+
+ESTRUTURA
+index.html                 Página principal
+assets/css/styles.css      Estilo e visual
+assets/js/app.js           Player, navegação e filtros
+assets/images/             Capas e imagens dos personagens
+videos/                    Quatro vídeos MP4 da série
+
+VÍDEOS
+fogo-nao.mp4             Filme 1: Fogo Não!
+rio-pede-socorro.mp4      Filme 2: O Rio Pede Socorro!
+chuvas-intensas.mp4       Filme 3: Chuvas Intensas
+pingo-que-diversao.mp4    Especial musical
+
+DIREITOS EDITORIAIS
+© 2026 HG & A Editora e Produtora Audiovisual.
+Os vídeos e personagens foram utilizados a partir dos arquivos fornecidos
+pelo responsável do projeto. Este pacote não realiza registro de marca,
+ISBN ou qualquer registro de propriedade intelectual.

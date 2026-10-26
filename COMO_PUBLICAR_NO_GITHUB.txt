@@ -1,0 +1,14 @@
+SITE PROTETORES DO BEM — VERSAO LEVE PARA GITHUB PAGES
+HG & A Editora e Produtora Audiovisual
+
+Esta versao contem os quatro videos compactados para reduzir o peso do envio.
+
+1. Extraia este ZIP em uma pasta no seu computador.
+2. Abra a pasta extraida e selecione TODO o conteudo (Ctrl+A).
+3. No repositorio GitHub, abra Add file > Upload files.
+4. Arraste os arquivos selecionados para a area de envio; NAO envie o ZIP.
+5. Confira index.html, as pastas assets/ e videos/ na lista.
+6. Clique Commit changes e confirme que voltaram para a pagina principal do repositorio.
+7. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+
+Se ja existir upload anterior com arquivos parcialmente enviados, confira a lista do repositorio antes.
