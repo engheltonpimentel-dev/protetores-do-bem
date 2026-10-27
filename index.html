@@ -98,6 +98,30 @@
       <div class="watch-bottom"><p id="watch-description"></p><div class="watch-actions"><a id="download-video" class="watch-action" download>↓ Baixar vídeo</a><button type="button" id="copy-link" class="watch-action">⧉ Copiar link</button><button type="button" id="next-video" class="watch-next">Próximo vídeo →</button></div></div>
     </div>
   </div>
+  
+<script>
+  const contador = document.createElement("div");
+  contador.innerHTML = `
+    <span>👀 Visitas ao site:</span>
+    <img
+      src="https://protetoresdobem.goatcounter.com/counter/TOTAL.svg?no_branding=1"
+      alt="Total de visitas"
+      width="130"
+    >
+  `;
+  contador.style.display = "flex";
+  contador.style.alignItems = "center";
+  contador.style.justifyContent = "center";
+  contador.style.gap = "10px";
+  contador.style.flexWrap = "wrap";
+  document.querySelector(".footer-bottom").appendChild(contador);
+</script>
+  <script>
+  document.querySelector(".footer-bottom").insertAdjacentHTML(
+    "beforeend",
+    '<span>👀 Visitas ao site: <img src="https://protetoresdobem.goatcounter.com/counter/TOTAL.svg?no_branding=1" alt="Total de visitas" width="120"></span>'
+  );
+</script>
 <script
   data-goatcounter="https://protetoresdobem.goatcounter.com/count"
   async
